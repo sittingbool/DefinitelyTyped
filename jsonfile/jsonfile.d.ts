@@ -59,4 +59,4 @@ declare module "jsonfile" {
     export function writeFile(filename: string, data: any, options: { encoding?: string; mode?: string; flag?: string; spaces?: number; }, callback?: (err: NodeJS.ErrnoException) => void): void;
     export function writeFileSync(filename: string, data: any, options?: { encoding?: string; mode?: number; flag?: string; spaces?: number; }): void;
     export function writeFileSync(filename: string, data: any, options?: { encoding?: string; mode?: string; flag?: string; spaces?: number; }): void;
-};
+}
